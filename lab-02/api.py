@@ -1,8 +1,8 @@
-from cipher.transposition import TranspositionCipher
-from cipher.vigenere import VigenereCipher
-from cipher.playfair import PlayFairCipher
-from cipher.caesar import CaesarCipher
-from cipher.railfence import RailFenceCipher
+from ex01.cipher.transposition import TranspositionCipher
+from ex01.cipher.vigenere import VigenereCipher
+from ex01.cipher.playfair import PlayFairCipher
+from ex01.cipher.caesar import CaesarCipher
+from ex01.cipher.railfence import RailFenceCipher
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)  # Khởi tạo đối tượng Flask
